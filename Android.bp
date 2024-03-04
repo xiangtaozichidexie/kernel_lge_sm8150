@@ -27,6 +27,4 @@ cc_prebuilt_binary {
 kernel_headers_verbose = ""
 
 build = ["gen_headers_arm.bp", "gen_headers_arm64.bp"]
-    vendor: true,
-    recovery_available: true,
-}
+
